@@ -1,0 +1,9 @@
+md5: ad6accb23d022c404a57b7ace54099ce
+cmd: curl -# http://groups.inf.ed.ac.uk/cup/javaGithub/java_projects.tar.gz > data/gigatoken-corpus.tar.gz
+wdir: ..
+outs:
+- md5: 5ad5ab1f45baa6eb502066df96d00380
+  path: data/gigatoken-corpus.tar.gz
+  cache: true
+  metric: false
+  persist: false
