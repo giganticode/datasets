@@ -1,0 +1,8 @@
+md5: 86b86199e37aca2525098498f63c5f06
+wdir: ../data
+outs:
+- md5: a2cf3d1b619764c40ff986a83805fd8a.dir
+  path: 25k-vocab
+  cache: true
+  metric: false
+  persist: false
