@@ -1,0 +1,25 @@
+md5: 3ff7224d03dd03288e5611791c0e2a60
+cmd: scripts/extract-25k-vocab-corpus.sh data/gigatoken-corpus.tar.gz script-data/25k-vocab-corpus-projects/train.txt
+  script-data/25k-vocab-corpus-projects/valid.txt script-data/25k-vocab-corpus-projects/test.txt
+  Clara/clara/src/main/java/org/vaadin/teemu/clara/Clara.java data/25k-vocab-corpus
+wdir: ..
+deps:
+- md5: f23195d351918f103c01930427230207
+  path: scripts/extract-25k-vocab-corpus.sh
+- md5: 5ad5ab1f45baa6eb502066df96d00380
+  path: data/gigatoken-corpus.tar.gz
+- md5: b501d6377a596022e5bec91ca057485e
+  path: script-data/25k-vocab-corpus-projects/train.txt
+- md5: b62ed5a3d3624b9ea572d29dedc0c472
+  path: script-data/25k-vocab-corpus-projects/valid.txt
+- md5: ff6c3e364155e331a6e3b39c46b90a21
+  path: script-data/25k-vocab-corpus-projects/test.txt
+- path: params/25k-vocab-corpus.yml
+  params:
+    demo-file: Clara/clara/src/main/java/org/vaadin/teemu/clara/Clara.java
+outs:
+- md5: ca2e8d6be677c14bd408fca1ad2c08cc.dir
+  path: data/25k-vocab-corpus
+  cache: true
+  metric: false
+  persist: false

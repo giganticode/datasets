@@ -1,0 +1,8 @@
+1160-Scouting-App
+AndProject
+camel-aries-blueprint-tutorial
+Clara
+hands-on-spring-batch
+Journal.IO
+SnippingTool
+twitterdroid

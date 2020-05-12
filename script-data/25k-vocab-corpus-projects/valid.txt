@@ -1,0 +1,8 @@
+arquillian-extension-rest
+cineasts
+emma4it-maven-plugin
+geohash-java
+guava-example
+hoptoad-notifier-java
+jmeter-amf
+skype-simulator
