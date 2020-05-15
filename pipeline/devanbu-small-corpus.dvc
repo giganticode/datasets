@@ -1,0 +1,25 @@
+md5: 8d9954e04df7cd63c0afcae467d2eee4
+cmd: scripts/extract-corpus.sh data/gigatoken-corpus.tar.gz script-data/devanbu-split/train.txt
+  script-data/devanbu-split/valid.txt script-data/devanbu-split/test.txt Clara/clara/src/main/java/org/vaadin/teemu/clara/Clara.java
+  data/devanbu-small-corpus
+wdir: ..
+deps:
+- md5: f23195d351918f103c01930427230207
+  path: scripts/extract-corpus.sh
+- md5: 5ad5ab1f45baa6eb502066df96d00380
+  path: data/gigatoken-corpus.tar.gz
+- md5: d8ad66a2776c92db40eab46bf8ca5c5c
+  path: script-data/devanbu-split/train.txt
+- md5: 149a4e1d43239e947eac8cacdefbf31b
+  path: script-data/devanbu-split/valid.txt
+- md5: 386e217730117c7276d72d0dc21a2740
+  path: script-data/devanbu-split/test.txt
+- path: params/25k-vocab-corpus.yml
+  params:
+    demo-file: Clara/clara/src/main/java/org/vaadin/teemu/clara/Clara.java
+outs:
+- md5: fbfc6bc25a11e40705a235b12e9f0637.dir
+  path: data/devanbu-small-corpus
+  cache: true
+  metric: false
+  persist: false
