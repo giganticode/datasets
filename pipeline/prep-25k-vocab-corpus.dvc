@@ -1,14 +1,16 @@
-md5: 15889b171209bd22b06ffae76b3322b6
-cmd: pip install -r requirements.txt && codeprep nosplit -p $(pwd)/data/25k-vocab-corpus
-  --no-unicode --no-str --no-com --no-spaces --calc-vocab --verbose --output-path=$(pwd)/data/25k-vocab-corpus-prepped
+md5: aad3d0a83b7cddf9da17a97367d23417
+cmd: scripts/prep-25k-vocab-corpus.sh
 wdir: ..
 deps:
 - md5: ca2e8d6be677c14bd408fca1ad2c08cc.dir
   path: data/25k-vocab-corpus
-- md5: 7181e95ae9a308e11dc9a45b63aa293d
+- md5: 92c8ea9463d9fdc87656b786b88177a9
   path: requirements.txt
+- path: params/25k-vocab-corpus.yml
+  params:
+    codeprep_version: 1.0.1
 outs:
-- md5: d751713988987e9331980363e24189ce.dir
+- md5: 03e26bcc4d409c2d4156b26969f1e690.dir
   path: data/25k-vocab-corpus-prepped
   cache: true
   metric: false
