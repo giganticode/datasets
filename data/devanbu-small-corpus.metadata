@@ -1,0 +1,17 @@
+{
+  "train": {
+    "size_mb": 150,
+    "files": 12934,
+    "loc": 3513683
+  },
+  "valid": {
+    "size_mb": 48,
+    "files": 7185,
+    "loc": 882392
+  },
+  "test": {
+    "size_mb": 56,
+    "files": 8269,
+    "loc": 1194453
+  }
+}

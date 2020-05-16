@@ -1,0 +1,11 @@
+md5: 63d8f468fc068c9d9e62b46502c59abb
+cmd: scripts/corpus-stats.sh data/devanbu-small-corpus data/devanbu-small-corpus.metadata
+deps:
+- md5: 7df3b61eee9592df4e5ce1471e8201b6
+  path: scripts/corpus-stats.sh
+outs:
+- md5: 90ff0657339bea90ff0c63496a3cbd61
+  path: data/devanbu-small-corpus.metadata
+  cache: false
+  metric: true
+  persist: false
