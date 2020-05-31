@@ -1,0 +1,12 @@
+md5: a93b06eea8b7e06ff3a967568c19a9b8
+cmd: tar -xzf data/gigatoken-corpus.tar.gz -C data && mv data/java_projects data/gigatoken-corpus
+wdir: ..
+deps:
+- md5: 5ad5ab1f45baa6eb502066df96d00380
+  path: data/gigatoken-corpus.tar.gz
+outs:
+- md5: f7a6b019a290aa3a35b9b36ebb7111a1.dir
+  path: data/gigatoken-corpus
+  cache: false
+  metric: false
+  persist: false
