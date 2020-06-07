@@ -1,0 +1,7 @@
+stages:
+  zip-devanbu-small-corpus:
+    cmd: zip -r1 data/devanbu-small-corpus.zip data/devanbu-small-corpus
+    deps:
+    - data/devanbu-small-corpus
+    outs:
+    - data/devanbu-small-corpus.zip

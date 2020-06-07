@@ -1,0 +1,8 @@
+zip-devanbu-small-corpus:
+  cmd: zip -r1 data/devanbu-small-corpus.zip data/devanbu-small-corpus
+  deps:
+  - path: data/devanbu-small-corpus
+    md5: fbfc6bc25a11e40705a235b12e9f0637.dir
+  outs:
+  - path: data/devanbu-small-corpus.zip
+    md5: e4fdca3d63c0c2cb8f3aaf806c91b129
