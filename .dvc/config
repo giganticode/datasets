@@ -1,6 +1,4 @@
 [core]
-    remote = test
+    remote = gs-remote
 ['remote "gs-remote"']
     url = gdrive://1yXSr7u20b53WtK3ULIhPBaamixRxS1Uw
-['remote "test"']
-    url = gdrive://1nlZ2HV256aa9BplPBr8YORpj2Y_IDhoz
